@@ -15,3 +15,4 @@ Following are the major modifications/enhancements in this code:
 9. Added modules for polar/cartesian tranformation using cordic library. These modules are for future use so that the code can be ported to ESP32. The ESP32 compiler does not allow floating point code to run in an interrupt service routine. The cordic library uses integer operations for the trig functions.
 
 Any bluetooth gamepad supported by the bluepad32 library https://github.com/ricardoquesada/bluepad32/blob/main/docs/plat_nina.md can be used. See the images folder for button actions using the gamepad controller.
+![Nessie](https://user-images.githubusercontent.com/56706114/210266320-e5437e58-b91d-4caf-86b0-b0dfa9d8410c.png)
