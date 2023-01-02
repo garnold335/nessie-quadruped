@@ -14,4 +14,4 @@ Following are the major modifications/enhancements in this code:
 8. Added additional moves from John Crombie's code: https://www.youtube.com/watch?v=wmmPD2v2RAA
 9. Added modules for polar/cartesian tranformation using cordic library for future port to ESP32, which does not allow floating point code in an interrupt service routine.
 
-Any bluetooth gamepad supported by the bluepad32 library can be used. See the images folder for button actions using the gamepad controller.
+Any bluetooth gamepad supported by the bluepad32 library https://github.com/ricardoquesada/bluepad32/blob/main/docs/plat_nina.md can be used. See the images folder for button actions using the gamepad controller.
