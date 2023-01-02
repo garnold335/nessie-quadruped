@@ -1,7 +1,7 @@
-# spider-quadruped
-This code for a spider robot is based on kasinatorthh's code:
+# nessie-quadruped
+This code for a quadruped robot is based on kasinatorthh's code:
 https://github.com/kasinatorhh/BTSpidey
-The physical design is essentially the same as  kasinatorhh: https://www.thingiverse.com/thing:4070234 and instructions for assembly, calibration, etc can be found there. There are a few modifications to the non-moving parts. The ultrasonic ranging module is omitted, and there is a modified electronics holder to fit the Arduino Nano board, PCA9685, and charging circuit and connector for the LiPo battery. 
+The physical design is essentially the same as  kasinatorhh: https://www.thingiverse.com/thing:4070234 and instructions for assembly, calibration, etc can be found there. There are a few modifications to the non-moving parts. The ultrasonic ranging module is omitted, the head is replaced with a friendly Loch Ness monster (Nessie) head, and there is a modified electronics holder to fit the Arduino Nano board, PCA9685, and charging circuit and connector for the LiPo battery. 
 
 Following are the major modifications/enhancements in this code:
 1. Runs on Arduino Nano 33 IoT rather than Ardunio Nano. The board includes an integrated bluetooth transceiver, so that a separate board is not needed to use a bluetooth gamepad to control the robot.
