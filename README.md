@@ -12,6 +12,6 @@ Following are the major modifications/enhancements in this code:
 6. LiPo battery voltage monitor using analog pin A6 with a voltage divider: 82Kohm between Vin and A6 and 27kohm between A6 and Gnd.
 7. Voltage level is displayed on the gamepad LEDs: 4 LEDs inidcating full charge and 1 LED low voltage threshhold.  The gamepad vibrates continuously when voltage drops below the low threshhold.
 8. Added additional moves from John Crombie's code: https://www.youtube.com/watch?v=wmmPD2v2RAA
-9. Added modules for polar/cartesian tranformation using cordic library for future port to ESP32, which does not allow floating point code in an interrupt service routine.
+9. Added modules for polar/cartesian tranformation using cordic library. These modules are for future use so that the code can be ported to ESP32. The ESP32 compiler does not allow floating point code to run in an interrupt service routine. The cordic library uses integer operations for the trig functions.
 
 Any bluetooth gamepad supported by the bluepad32 library https://github.com/ricardoquesada/bluepad32/blob/main/docs/plat_nina.md can be used. See the images folder for button actions using the gamepad controller.
