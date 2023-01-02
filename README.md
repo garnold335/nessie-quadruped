@@ -16,4 +16,5 @@ Following are the major modifications/enhancements in this code:
 
 Any bluetooth gamepad supported by the bluepad32 library https://github.com/ricardoquesada/bluepad32/blob/main/docs/plat_nina.md can be used. See the diagram for button actions using the gamepad controller.
 ![Nessie](https://github.com/garnold335/nessie-quadruped/blob/5e19585bed2978dbe2310d2b76cc920f1df070c2/images/Nessie.png)
+![Nessie](https://github.com/garnold335/nessie-quadruped/blob/66fdb88c5db9c48b95235b8f03811444cf0dc6e5/images/button%20map.png)
 
